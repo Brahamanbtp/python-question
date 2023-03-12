@@ -1,0 +1,7 @@
+#star patterm
+
+n=int(input("Enter no. of row"))
+for x in range(1,n+1):
+ for y in range(1,x):
+  print("x",end=" ")
+ print()
